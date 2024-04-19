@@ -1,0 +1,143 @@
+.tata{
+    font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+  color: rgba(209, 71, 46, 0.93);
+
+}
+.jio{
+    font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
+  color:rgb(225, 15, 201)
+
+}
+
+.card{
+    background-color: brown;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+}
+html{
+    background-color: rgb(83, 83, 197);
+}
+
+.taskbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(209, 181, 132);
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    justify-content: space-between; 
+    z-index: 999; 
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: auto; 
+}
+
+.logo img {
+    width: auto;
+    height: 30px; 
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: auto;
+    height: 30px;/
+    margin-left: 10px; 
+    transition: transform 0.3s ease;
+}
+.carousel{
+    margin: top 50px;
+}
+
+.button-50 {
+    appearance: button;
+    background-color: #d50f0f;
+    background-image: none;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+    box-sizing: border-box;
+    color: rgb(209, 181, 132);
+    cursor: pointer;
+    display: inline-block;
+    font-family:"Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size:25px;
+    line-height: 20px;
+    margin: 0 5px 10px 0;
+    overflow: visible;
+    padding: 12px 40px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    
+  height: 75px;
+  }
+  
+  .button-50:focus {
+    text-decoration: none;
+  }
+  
+  .button-50:hover {
+    text-decoration: none;
+  }
+  
+  .button-50:active {
+    box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+    outline: 0;
+  }
+  
+  .button-50:not([disabled]):active {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+  }
+  
+  @media (min-width: 768px) {
+    .button-50 {
+      padding: 12px 50px;
+    }
+  }
+  .button-50:hover{
+      opacity:0.8;
+  
+  }
+
+  .teamsbutton{
+    position: relative;
+    top: 200px;
+    right:1200px;
+    text-decoration: none;
+  }
+  .pointsbuttons{
+    position: relative;
+    top: 200px;
+    right:500px;
+    text-decoration: none;
+  }
+  .txtrr{
+    text-decoration: none;
+
+  }
